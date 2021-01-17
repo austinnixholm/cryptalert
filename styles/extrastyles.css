@@ -26,13 +26,23 @@
     background-color: rgb(0, 36, 44);
 }
 
+.card.bg-cryptalert h1, h2, h3, h4 {
+    color: rgb(244, 244, 244);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.card.bg-cryptalert p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(200, 200, 200);
+}
+
 .navbar-brand {
     width: 200px;
     font-size: 32px;
 }
 
 .navbar-brand img {
-    height: 126px;
+    height: 160px;
     /* put value of image height as your need */
     float: left;
     margin-right: 7px;
@@ -45,4 +55,8 @@
 
 body {
     background-color: rgb(21, 61, 70)
+}
+
+.cryptalert-form label {
+    color: rgb(200, 200, 200);
 }
