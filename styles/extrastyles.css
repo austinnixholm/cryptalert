@@ -61,9 +61,17 @@ body {
     color: rgb(200, 200, 200);
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
 @font-face {
     font-family: 'Consolas';
-    src: url('fonts/Consolas.woff2') format('woff2'), url('fonts/Consolas.woff') format('woff'), url('fonts/Consolas.ttf') format('truetype');
+    src: url('Consolas.woff2') format('woff2'), url('Consolas.woff') format('woff'), url('Consolas.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
