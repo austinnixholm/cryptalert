@@ -6,45 +6,6 @@
     font-display: swap;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 667px) {
-    .navbar-brand {
-        width: 120px;
-        font-size: 32px;
-    }
-    .navbar-brand img {
-        height: 90px;
-        /* put value of image height as your need */
-        float: left;
-        margin-right: 7px;
-    }
-}
-
-@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
-    .navbar-brand {
-        width: 60px;
-        font-size: 32px;
-    }
-    .navbar-brand img {
-        height: 30px;
-        /* put value of image height as your need */
-        float: left;
-        margin-right: 7px;
-    }
-}
-
-@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
-    .navbar-brand {
-        width: 180px;
-        font-size: 32px;
-    }
-    .navbar-brand img {
-        height: 110px;
-        /* put value of image height as your need */
-        float: left;
-        margin-right: 7px;
-    }
-}
-
 .navbar-brand a {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -114,4 +75,82 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+    .navbar-brand {
+        width: 120px;
+        font-size: 32px;
+    }
+    .navbar-brand img {
+        height: 90px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait) {
+    .navbar-brand {
+        width: 60px;
+        font-size: 32px;
+    }
+    .navbar-brand img {
+        height: 30px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {
+    .navbar-brand {
+        width: 180px;
+        font-size: 32px;
+    }
+    .navbar-brand img {
+        height: 110px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .navbar-brand {
+        width: 120px;
+        font-size: 32px;
+    }
+    .navbar-brand img {
+        height: 90px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+    .navbar-brand {
+        width: 90px;
+        font-size: 32px;
+    }
+    .navbar-brand img {
+        height: 60px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+    .navbar-brand {
+        width: 180px;
+        font-size: 32px;
+    }
+    .navbar-brand img {
+        height: 110px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
 }
