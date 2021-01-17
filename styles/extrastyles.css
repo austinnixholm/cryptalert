@@ -1,0 +1,48 @@
+.navbar-brand a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar-primary .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar-primary .navbar-nav li {
+    display: inline-block;
+    float: none;
+}
+
+#navbar-primary .navbar-nav a {
+    font-family: 'Consolas', serif;
+    font-size: x-large;
+    display: inline-block;
+    flex-direction: row;
+    float: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bg-cryptalert {
+    background-color: rgb(0, 36, 44);
+}
+
+.navbar-brand {
+    width: 200px;
+    font-size: 32px;
+}
+
+.navbar-brand img {
+    height: 126px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+}
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+body {
+    background-color: rgb(21, 61, 70)
+}
