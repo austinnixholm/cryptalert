@@ -30,16 +30,16 @@
     padding-right: 30px;
 }
 
-.bg-cryptalert {
+.bg-cryptobound {
     background-color: rgb(0, 36, 44);
 }
 
-.card.bg-cryptalert h1, h2, h3, h4 {
+.card.bg-cryptobound h1, h2, h3, h4 {
     color: rgb(244, 244, 244);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.card.bg-cryptalert p {
+.card.bg-cryptobound p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(200, 200, 200);
 }
@@ -65,7 +65,7 @@ body {
     background-color: rgb(21, 61, 70)
 }
 
-.cryptalert-form label {
+.cryptobound-form label {
     color: rgb(200, 200, 200);
 }
 
