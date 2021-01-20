@@ -118,11 +118,11 @@ body {
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
     .navbar-brand {
-        width: 120px;
+        width: 116px;
         font-size: 32px;
     }
     .navbar-brand img {
-        height: 90px;
+        height: 48px;
         /* put value of image height as your need */
         float: left;
         margin-right: 7px;
@@ -135,7 +135,7 @@ body {
         font-size: 32px;
     }
     .navbar-brand img {
-        height: 60px;
+        height: 48px;
         /* put value of image height as your need */
         float: left;
         margin-right: 7px;
